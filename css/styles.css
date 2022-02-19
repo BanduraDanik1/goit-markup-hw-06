@@ -350,7 +350,7 @@ button {
   color: var(--title-text);
 }
 
-.team-itam {
+.team-item {
   box-sizing: border-box;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -359,7 +359,7 @@ button {
   text-align: center;
 }
 
-.team-itam:not(:last-child) {
+.team-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -399,7 +399,7 @@ button {
   transition: var(--transform);
 }
 
-.itam-icon:not(:last-child) {
+.item-icon:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -560,7 +560,7 @@ button {
   margin-bottom: -30px;
 }
 
-.project-itam {
+.project-item {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
@@ -568,8 +568,8 @@ button {
   transition: var(--transform);
 }
 
-.project-itam:hover,
-.project-itam:focus {
+.project-item:hover,
+.project-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -589,7 +589,7 @@ button {
   transition: var(--transform);
 }
 
-.project-itam:hover .portfolio-overlay::before {
+.project-item:hover .portfolio-overlay::before {
  transform: translateY(0%);
 }
 
@@ -607,7 +607,7 @@ button {
 }
 
 
-.project-itam:hover .overlay-text {
+.project-item:hover .overlay-text {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -657,7 +657,7 @@ button {
   justify-content: center;
 }
 
-.client-itam:not(:last-child) {
+.client-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -810,7 +810,7 @@ button {
   margin-left: auto;
 }
 
-.backdrop-itam:not(:last-child){
+.backdrop-item:not(:last-child){
   margin-bottom: 10px;
 }
 
